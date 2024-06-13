@@ -38,7 +38,7 @@ class Config:
         ).split(None)
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default="BAD")
+    AuDD_API = config("AuDD_API",default="vubvujb")
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = config("DB_URI", default="")
     DB_NAME = config("DB_NAME", default="gojo_satarou")
@@ -49,10 +49,10 @@ class Config:
     SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="gojo_bots_network")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
-    BOT_USERNAME = ""
-    BOT_ID = ""
-    BOT_NAME = ""
-    owner_username = ""
+    BOT_USERNAME = "Test_robo_test_bot"
+    BOT_ID = "7394970820"
+    BOT_NAME = "hsj"
+    owner_username = "II_BAD_BABY_II"
 
 
 class Development:
@@ -79,4 +79,4 @@ class Development:
     VERSION = "VERSION"
     TIME_ZONE = 'Asia/Kolkata'
     BDB_URI = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
-    WORKERS = 8
+    WORKERS = 7

@@ -38,7 +38,7 @@ class Config:
         ).split(None)
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default="vubvujb")
+    AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = config("DB_URI", default="")
     DB_NAME = config("DB_NAME", default="gojo_satarou")
@@ -73,6 +73,7 @@ class Development:
     NO_LOAD = [6352107773]
     GENIUS_API_TOKEN = "JSJSJ"
     RMBG_API = "HSJJ"
+    AuDD_API = "badhi"
     PREFIX_HANDLER = ["!", "/","$"]
     SUPPORT_GROUP = "PBX_CHAT"
     SUPPORT_CHANNEL = "PBX_CHAT"

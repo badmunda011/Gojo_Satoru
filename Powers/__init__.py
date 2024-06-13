@@ -99,7 +99,7 @@ elif not Config.GENIUS_API_TOKEN:
 is_audd = False
 Audd = None
 if Config.AuDD_API:
-    is_audd = True
+    is_audd = false
     Audd = Config.AuDD_API
     LOGGER.info("Found Audd api")
 

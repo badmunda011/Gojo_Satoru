@@ -20,25 +20,25 @@ class Config:
         int(i)
         for i in config(
             "DEV_USERS",
-            default="",
+            default="6352107773",
         ).split(None)
     ]
     SUDO_USERS = [
         int(i)
         for i in config(
             "SUDO_USERS",
-            default="",
+            default="6352107773",
         ).split(None)
     ]
     WHITELIST_USERS = [
         int(i)
         for i in config(
             "WHITELIST_USERS",
-            default="",
+            default="6352107773",
         ).split(None)
     ]
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default=None)
+    AuDD_API = config("AuDD_API",default="BAD")
     RMBG_API = config("RMBG_API",default=None)
     DB_URI = config("DB_URI", default="")
     DB_NAME = config("DB_NAME", default="gojo_satarou")

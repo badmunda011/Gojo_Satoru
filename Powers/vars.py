@@ -15,7 +15,7 @@ class Config:
     API_ID = int(config("API_ID", default="27383453"))
     API_HASH = config("API_HASH", default=None)
     OWNER_ID = int(config("OWNER_ID", default=6352107773))
-    MESSAGE_DUMP = int(config("-1002093247039"))
+    MESSAGE_DUMP = int(config("1002093247039"))
     DEV_USERS = [
         int(i)
         for i in config(

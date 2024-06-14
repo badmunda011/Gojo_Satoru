@@ -11,9 +11,9 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    BOT_TOKEN = config("BOT_TOKEN", default="7177274563:AAFyV9BtGWhhhEkVNOeaxlu_PEZW0KxWebU")
     API_ID = int(config("API_ID", default="27383453"))
-    API_HASH = config("API_HASH", default=None)
+    API_HASH = config("API_HASH", default="4c246fb0c649477cc2e79b6a178ddfaa")
     OWNER_ID = int(config("OWNER_ID", default=6352107773))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP",default="-1002093247039"))
     DEV_USERS = [
@@ -37,12 +37,12 @@ class Config:
             default="6352107773",
         ).split(None)
     ]
-    GENIUS_API_TOKEN = config("GENIUS_API",default=None)
-    AuDD_API = config("AuDD_API",default=None)
-    RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="")
+    GENIUS_API_TOKEN = config("GENIUS_API",default="nbh")
+    AuDD_API = config("AuDD_API",default="gojo_satarou")
+    RMBG_API = config("RMBG_API",default="gojo_satau")
+    DB_URI = config("DB_URI", default="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")
     DB_NAME = config("DB_NAME", default="gojo_satarou")
-    BDB_URI = config("BDB_URI",default=None)
+    BDB_URI = config("BDB_URI",default="mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="gojo_bots_network")
@@ -64,13 +64,13 @@ class Development:
     API_ID = 27383453
     API_HASH = "4c246fb0c649477cc2e79b6a178ddfaa"
     OWNER_ID = 6352107773
-    MESSAGE_DUMP = -1002093247039  # Your Private Group ID for logs
-    DEV_USERS = [6352107773]
-    SUDO_USERS = [6352107773]
-    WHITELIST_USERS = [6352107773]
+    MESSAGE_DUMP = -1002093247039 
+    DEV_USERS = 6352107773
+    SUDO_USERS = 6352107773
+    WHITELIST_USERS = 6352107773
     DB_URI = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
     DB_NAME = "BrokenDB"
-    NO_LOAD = [6352107773]
+    NO_LOAD = 6352107773
     GENIUS_API_TOKEN = "JSJSJ"
     RMBG_API = "HSJJ"
     AuDD_API = "badhi"
